@@ -1,0 +1,104 @@
+/* style.css */
+
+/* Định nghĩa chung cho toàn bộ trang */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Phông chữ đẹp và dễ đọc */
+    margin: 0; /* Bỏ khoảng trắng xung quanh trang */
+    padding: 0; /* Bỏ phần đệm bên trong */
+    background-color: #f4f4f4; /* Màu nền nhẹ nhàng */
+    color: #333; /* Màu chữ chính */
+    line-height: 1.6; /* Khoảng cách dòng giúp dễ đọc */
+}
+
+/* Định kiểu cho phần Header */
+header {
+    background-color: #333; /* Màu nền tối */
+    color: #fff; /* Màu chữ trắng */
+    padding: 20px 0; /* Khoảng đệm trên dưới 20px, trái phải 0 */
+    text-align: center; /* Căn giữa nội dung */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Tạo bóng đổ nhẹ */
+}
+
+header h1 {
+    margin: 0; /* Bỏ khoảng trắng mặc định của h1 */
+    font-size: 2.5em; /* Kích thước chữ lớn hơn */
+}
+
+header img {
+    border-radius: 50%; /* Bo tròn ảnh thành hình tròn */
+    margin: 15px 0; /* Khoảng cách trên dưới */
+    border: 4px solid #fff; /* Viền trắng cho ảnh */
+    box-shadow: 0 0 10px rgba(0,0,0,0.3); /* Bóng đổ cho ảnh */
+}
+
+/* Định kiểu cho các phần nội dung chính */
+main {
+    max-width: 900px; /* Chiều rộng tối đa của nội dung */
+    margin: 20px auto; /* Căn giữa nội dung và tạo khoảng cách trên dưới */
+    padding: 20px;
+    background-color: #fff; /* Nền trắng cho phần nội dung */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Bóng đổ nhẹ */
+    border-radius: 8px; /* Bo góc nhẹ */
+}
+
+section {
+    margin-bottom: 30px; /* Khoảng cách giữa các phần */
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee; /* Đường kẻ phân cách */
+}
+
+section:last-child {
+    border-bottom: none; /* Bỏ đường kẻ ở phần cuối cùng */
+}
+
+h2 {
+    color: #007bff; /* Màu xanh nổi bật cho tiêu đề chính các phần */
+    border-bottom: 2px solid #007bff; /* Đường kẻ dưới tiêu đề */
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+h3 {
+    color: #555; /* Màu xám đậm cho tiêu đề phụ */
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none; /* Bỏ dấu chấm đầu dòng mặc định */
+    padding: 0;
+}
+
+ul li {
+    background-color: #f9f9f9; /* Nền nhẹ cho mỗi mục danh sách */
+    margin-bottom: 8px;
+    padding: 10px 15px;
+    border-left: 4px solid #007bff; /* Đường viền bên trái */
+    border-radius: 4px;
+}
+
+ul li strong {
+    color: #0056b3; /* Màu đậm hơn cho chữ in đậm */
+}
+
+/* Định kiểu cho liên kết */
+a {
+    color: #007bff; /* Màu xanh cho liên kết */
+    text-decoration: none; /* Bỏ gạch chân mặc định */
+}
+
+a:hover {
+    text-decoration: underline; /* Hiện gạch chân khi di chuột qua */
+}
+
+/* Định kiểu cho phần Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    background-color: #333;
+    color: #fff;
+    box-shadow: 0 -2px 5px rgba(0,0,0,0.2);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
